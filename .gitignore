@@ -1,5 +1,7 @@
 # https://dart.dev/tools/private-files
 # Created by `dart pub`
 /.dart_tool/
+/.vscode
+/__pycache__
 /build/
 /run_tests.py

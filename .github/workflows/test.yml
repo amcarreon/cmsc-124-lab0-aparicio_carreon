@@ -7,6 +7,7 @@ jobs:
       - uses: actions/checkout@v7
       - uses: dart-lang/setup-dart@v1
       - run: chmod +x build.sh run
-      - run: ./build.sh
       - run: curl -sSL https://raw.githubusercontent.com/WhiteLicorice/cmsc-124-harness/v1.1/run_tests.py -o run_tests.py
+      - run: ./build.sh
       - run: python3 run_tests.py tests/lab0
+      - run: python3 run_tests.py tests/lab1
